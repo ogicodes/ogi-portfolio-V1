@@ -1,11 +1,10 @@
-import './App.css'
+import "./App.scss";
+import Hero from "./components/Hero/Hero";
 
 export default function App() {
-
   return (
     <>
-      <h1>Hello World</h1>
+      <Hero />
     </>
-  )
+  );
 }
-
