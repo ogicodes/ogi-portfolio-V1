@@ -49,7 +49,7 @@ export default function Hero() {
             <img src={instagramIcon} alt="instagram icon" />
           </a>
         </span>
-        <p>
+        <p className="hero__description">
           With a passion for developing modern React and THREE.js web apps for
           commercial businesses.
         </p>
