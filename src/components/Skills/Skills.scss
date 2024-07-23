@@ -1,0 +1,35 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: .3125rem;
+    }
+
+    img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    &__skillList {
+        display: flex;
+        justify-content: space-evenly;
+        align-self: center;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        max-width: 26ch;
+    }
+
+    hr {
+        width: 6.25rem;
+        height: 1px;
+        border: none;
+        background-color: var(--text-color);
+        margin: 1.875rem auto;
+    }
+}
+
