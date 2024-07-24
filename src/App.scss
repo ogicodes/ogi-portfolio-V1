@@ -1,4 +1,14 @@
 :root {
+    --background-color: #222;
+    --btn-color: #8c1c34;
+    --btn-text-color: #fff;
+    --project-card-bg: #fff;
+    --text-color: #fff;
+    --form-text-color: #fff;
+    --footer-text-color: #bbb;
+}
+
+[data-theme="light"] {
     --background-color: #fff;
     --btn-color: #8c1c34;
     --btn-text-color: #fff;
@@ -8,14 +18,11 @@
     --footer-text-color: #888;
 }
 
-[data-theme="dark"] {
-    --background-color: #222;
-    --btn-color: #fff;
-    --btn-text-color: #222;
-    --project-card-bg: #fff;
-    --text-color: #fff;
-    --form-text-color: #fff;
-    --footer-text-color: #bbb;
+@font-face {
+    font-family: 'Montserrat' ;
+    src: url('../src/assets/fonts/Montserrat-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -38,7 +45,7 @@ h1,h2,h3,p {
 }
 
 h2,h3,p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
 }
 
 h1,h2 {
@@ -50,7 +57,7 @@ h2,h3 {
 }
 
 h1 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
 }
 
