@@ -81,3 +81,26 @@
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+
+        &__img {
+            max-width: 21.875rem;
+            width: 21.875rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero {
+
+        &__img {
+            max-width: 25rem;
+            width: 25rem;
+        }
+    }
+}

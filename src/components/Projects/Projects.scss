@@ -12,9 +12,15 @@
 
     &__img {
         max-width: 15.625rem;
+        height: 15.625rem;
+        object-fit: contain;
         align-self: center;
         background-color: var(--project-card-bg);
         border-radius: 20px;
+
+        &--border {
+            border: solid 1px #222;
+        }
     }
 
     &__link {
@@ -22,6 +28,7 @@
         text-decoration: none;
         color: #222;
         transition: transform 0.2s ease-in-out;
+        
     }
     
     &__link:hover {
@@ -31,5 +38,16 @@
     &__title {
         margin-bottom: 1.875rem;
     }
+}
 
+@media screen and (min-width: 768px) {
+    .projects {
+        &__container {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 1.875rem;
+            gap: 1.875rem;
+        }
+    }
 }

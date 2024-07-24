@@ -1,6 +1,6 @@
 :root {
     --background-color: #fff;
-    --btn-color: #0987f2;
+    --btn-color: #8c1c34;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
     --text-color: #222;
@@ -63,3 +63,34 @@ p {
     margin-bottom: 1.875rem;
 }
 
+@media screen and (width >= 768px) {
+    #root {
+        gap: 6.25rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2,h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    
+    .sectionTitle {
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (width >= 1280px) {
+    #root {
+        gap: 12.5rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .sectionTitle {
+        margin-bottom: 4.6875rem;
+    }
+}

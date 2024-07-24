@@ -6,31 +6,29 @@ export default function Skills() {
   return (
     <section id="skills" className="skills">
       <h1 className="sectionTitle">Skills</h1>
-      <div className="skills__skillList">
-        <SkillList src={checkMarkIcon} skill="JavaScript" />
-        <SkillList src={checkMarkIcon} skill="SQL" />
-      </div>
       <hr />
       <div className="skills__skillList">
+      <SkillList src={checkMarkIcon} skill="JavaScript" />
+      <SkillList src={checkMarkIcon} skill="TypeScript" />
+      <SkillList src={checkMarkIcon} skill="THREE.Js" />
+      <SkillList src={checkMarkIcon} skill="React" />
+      <SkillList src={checkMarkIcon} skill="React Three/Fiber" />
+      <SkillList src={checkMarkIcon} skill="React Three/Drei" />
         <SkillList src={checkMarkIcon} skill="HTML5" />
         <SkillList src={checkMarkIcon} skill="CSS3" />
         <SkillList src={checkMarkIcon} skill="Sass" />
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
-        <SkillList src={checkMarkIcon} skill="THREE.JS" />
-        <SkillList src={checkMarkIcon} skill="React.js" />
-        <SkillList src={checkMarkIcon} skill="React Three/Fiber" />
-        <SkillList src={checkMarkIcon} skill="React Three/Drei" />
+
       </div>
       <hr />
       <div className="skills__skillList">
         <SkillList src={checkMarkIcon} skill="Node.js" />
         <SkillList src={checkMarkIcon} skill="Express" />
         <SkillList src={checkMarkIcon} skill="REST API" />
-      </div>
-      <hr />
-      <div className="skills__skillList">
-        <SkillList src={checkMarkIcon} skill="MySQL" />
         <SkillList src={checkMarkIcon} skill="Knex" />
+        <SkillList src={checkMarkIcon} skill="SQL" />
+        <SkillList src={checkMarkIcon} skill="MySQL" />
+
       </div>
       <hr />
       <div className="skills__skillList">

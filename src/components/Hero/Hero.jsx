@@ -1,6 +1,6 @@
 import "./Hero.scss";
 import heroImg from "../../assets/pics/OGI-WHITE-BG.jpg";
-import sun from "../../assets/icons/sun.svg";
+import sun from "../../../public/OD-NO-BG.png";
 import moon from "../../assets/icons/moon.svg";
 import githubLight from "../../assets/icons/github-light.svg";
 import githubDark from "../../assets/icons/github-dark.svg";
