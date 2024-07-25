@@ -3,12 +3,10 @@ import SkillList from "../SkillList/SkillList";
 
 const skills = [
   "JavaScript",
-  "TypeScript",
   "THREE.Js",
   "React",
   "React Three/Fiber",
   "React Three/Drei",
-  "Bootstrap",
   "HTML",
   "CSS",
   "Sass",
